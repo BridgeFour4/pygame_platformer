@@ -11,15 +11,25 @@ SPRITESHEET ="spritesheet_jumper.png"
 PLAYER_ACC = 0.5
 PLAYER_FRICTION= -0.12
 PLAYER_GRAV=0.8
-PLAYER_JUMP = 20
+PLAYER_JUMP = 22
+
+# game properties
+BOOST_POWER = 60
+POW_SPAWN = 7
+MOB_FREQ = 5000
+PLAYER_LAYER = 2
+PLATFORM_LAYER = 1
+POW_LAYER = 1
+MOB_LAYER = 2
+CLOUD_LAYER=0
 
 #Starting platform
-PLATFORM_LIST=[(0,HEIGHT-40,WIDTH,40),
-              (WIDTH /2 -50, HEIGHT *3/ 4, 100, 20),
-              (125,HEIGHT -350,100,20),
-              (350,200,150,20),
-              (175,100,50,20),
-              (125,350,50,20)]
+PLATFORM_LIST=[(0,HEIGHT-60),
+              (WIDTH /2 -50, HEIGHT *3/ 4),
+              (125,HEIGHT -350),
+              (350,200),
+              (175,100),
+              (125,350)]
 
 #COLORS (R,G,B)
 BLACK = (0, 0, 0)
